@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#pages{
+    display: flex;
+    height: 100vh;
+    background-color: rgb(49, 49, 49);
+    justify-content: center;
+    align-items: center;
+
+}
+
+#calc{
+    width: 550px;
+    height: 550px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    
+    
+    
+}
+
+.inputs{
+    width: 90px;
+    height: 80px;
+    margin: 5px;
+    background-color: rgba(179, 179, 179, 0.815);
+    border: 0;
+    border-radius: 5px;
+    
+}
+
+.inputs:hover{
+    
+    background-color: rgba(155, 155, 155, 0.911);
+}
+
+#scree{
+    width: 500px;
+    height: 80px;
+    border-radius: 5px;
+}
